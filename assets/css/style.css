@@ -10,13 +10,13 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 
-img {
+.profile-image {
     border: solid gray 2px;
     border-radius: 50%;
 }
 
 .row {
-    background: #f8f9fa !important;
+    background: #f8f9fa;
     border: solid gray 1px;
     border-top: 0px;
     padding-top: 5px;
@@ -49,5 +49,24 @@ img {
     border-bottom: 0px;
 }
 
+.card-row {
+    border: solid gray 1px;
+    text-align: center;
+    justify-content: center;
+}
 
+.card {
+    margin: 1rem;
+}
+
+.button-row {
+    background: white;
+    border: none;
+    justify-content: center;
+}
+
+.btn {
+    margin-right: 2px;
+    margin-left: 2px;
+}
 
